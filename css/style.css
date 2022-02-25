@@ -17,7 +17,7 @@
     --fs-16: 16px;
     --fs-24: 24px;
     --fs-32: 32px;
-    --fz-40: 40px;
+    --fz-55: 55px;
 }
 
 /* Geral */
@@ -33,15 +33,15 @@
 body {
     background-image: url(../img/fundoMovie.jpeg);
     background-size: cover;
-    background-position-y: -200px;
+    background-position-y: -200px;    
 }
 
 .titulo {
     color: var(--main-redlight-color);
     font-weight: bold;
-    font-size: var(--fz-40);
+    font-size: var(--fz-55);
     letter-spacing: -2px;
-    
+    margin-left: 15px;
 }
 
 input:focus {
@@ -149,14 +149,12 @@ button {
     margin-left: 85px;      
 }
 
-
 .saiba-mais {
     margin-top: 20px;
     font-size: var(--fs-12);
     color: var(--main-greylight-color);
     margin-left: 15px;
-    margin-right: 15px
-    
+    margin-right: 15px    
 }
 
 /* container rodapé */
@@ -171,8 +169,7 @@ button {
     font-size: var(--fs-13);
     color: var(--main-greylight-color);
     margin-left: 165px; 
-    margin-top: 20px; 
-         
+    margin-top: 20px;         
 }
 
 #telefone {
@@ -188,8 +185,7 @@ button {
     color: var(--main-white-color);
 }
 
-.nav-item-perguntas {
-    
+.nav-item-perguntas {    
     margin-left: 150px;
 }
 
