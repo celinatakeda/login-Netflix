@@ -42,7 +42,7 @@ body {
     font-weight: bold;
     font-size: var(--fz-50);
     letter-spacing: -2px;
-    margin-left: 15px;
+    margin-left: 15px;    
 }
 
 input:focus {
