@@ -57,11 +57,6 @@ a:hover {
     color: var(--main-white-color);
 }
 
-#help {
-    color: var(--main-greylight-color);
-    margin: 40px;      
-}
-
 /* container login */
 #login-container {
     background-color: var(--main-black-color);
@@ -110,6 +105,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+/* caixa de checagem */
 input[type="checkbox"] {
     background-color: var(--main-greylight-color);
 }
@@ -118,15 +114,12 @@ label {
     color: var(--main-greylight-color);
 } 
 
-
 /* redes sociais */
 #social-container img {
     height: 18px;
-    width: 18px;
-    margin: 0 5px; 
+    width: 18px;    
     margin-left: 15px;
-    margin-right: 15px
-
+    margin-right: 5px
 }
 
 .assinatura {
@@ -134,26 +127,28 @@ label {
     color: var(--main-greylight-color);
     margin-top: 20px;
     margin-left: 15px;
-    margin-right: 15px
-   
+    margin-right: 15px   
 }
 
 #assinar {
     color: var(--main-white-color);
-    font-size: var(--fs-14);
-    
+    font-size: var(--fs-14);    
 }
 
 button {
-    background-color: var(--main-black-color);
-        
+    background-color: var(--main-black-color);        
 }
 
 .button-conectar {
     font-size: var(--fs-12); 
-    color: var(--main-greylight-color);
-   
+    color: var(--main-greylight-color);      
 }
+
+#help {
+    color: var(--main-greylight-color);
+    margin-left: 85px;      
+}
+
 
 .saiba-mais {
     margin-top: 20px;
@@ -164,7 +159,8 @@ button {
     
 }
 
-#duvida-container {   
+/* container rodapé */
+#footer-container {   
     background-color: var(--main-black-color); 
     height: 200px;
     margin-top: 70px; 
@@ -174,21 +170,26 @@ button {
 .duvida {
     font-size: var(--fs-13);
     color: var(--main-greylight-color);
-    margin-left: 50px;  
-    
+    margin-left: 165px; 
+    margin-top: 20px; 
+         
 }
 
 #telefone {
     color: var(--main-greylight-color);
-  
+    font-size: var(--fs-14);  
 }
 
-.breadcrumb {
-    margin-top: 30px;
-    margin-left: 50px;
+.nav-link {    
     color: var(--main-greylight-color);
+    margin-right: 30px;   
+}
+.nav-link:hover {
+    color: var(--main-white-color);
 }
 
-#item {
-    color: var(--main-greylight-color);
+.nav-item-perguntas {
+    
+    margin-left: 150px;
 }
+
