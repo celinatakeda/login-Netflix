@@ -7,6 +7,7 @@
     --main-redlight-color: #e50914;
     --main-grey-color: #222;
     --main-greylight-color: #b3b3b3;
+    --main-grey-medium: rgb(75, 72, 72);
     --secondary-grey-color: #303030;       
 
     /* Font sizes */
@@ -17,7 +18,7 @@
     --fs-16: 16px;
     --fs-24: 24px;
     --fs-32: 32px;
-    --fz-55: 55px;
+    --fz-50: 50px;
 }
 
 /* Geral */
@@ -39,7 +40,7 @@ body {
 .titulo {
     color: var(--main-redlight-color);
     font-weight: bold;
-    font-size: var(--fz-55);
+    font-size: var(--fz-50);
     letter-spacing: -2px;
     margin-left: 15px;
 }
@@ -106,18 +107,25 @@ input[type="submit"] {
 }
 
 /* caixa de checagem */
-input[type="checkbox"] {
-    background-color: var(--main-greylight-color);
+
+.form-check-input{
+    background-color: var(--main-grey-medium);
+    border: none;
+    border-radius: 2px;
+    width: 5px;
+    height: 5px;
 }
+
 label {
     font-size: var(--fs-10);
     color: var(--main-greylight-color);
 } 
 
 /* redes sociais */
+
 #social-container img {
-    height: 18px;
-    width: 18px;    
+    height: 20px;
+    width: 20px;    
     margin-left: 15px;
     margin-right: 5px
 }
@@ -158,6 +166,7 @@ button {
 }
 
 /* container rodapé */
+
 #footer-container {   
     background-color: var(--main-black-color); 
     height: 200px;
