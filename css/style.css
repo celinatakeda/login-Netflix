@@ -168,7 +168,7 @@ button {
 .duvida {
     font-size: var(--fs-13);
     color: var(--main-greylight-color);
-    margin-left: 165px; 
+    margin-left: 265px; 
     margin-top: 20px;         
 }
 
@@ -181,11 +181,12 @@ button {
     color: var(--main-greylight-color);
     margin-right: 30px;   
 }
+
 .nav-link:hover {
     color: var(--main-white-color);
 }
 
 .nav-item-perguntas {    
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
